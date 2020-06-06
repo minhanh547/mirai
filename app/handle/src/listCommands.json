@@ -1,0 +1,394 @@
+[
+	{
+		"name":"help",
+		"decs":"Hướng dẫn cho người mới",
+		"usage":"help [command]",
+		"example":"help say",
+		"group":"general"
+	},
+	{
+		"name":"sumi",
+		"decs":"Gọi sumi",
+		"usage":"sumi",
+		"example":"sumi",
+		"group":"general"
+	},
+	{
+		"name":"lenny",
+		"decs":"( ͡° ͜ʖ ͡°)",
+		"usage":"lenny",
+		"example":"lenny",
+		"group":"general"
+	},
+	{
+		"name":"hug",
+		"decs":"ôm người bạn tag",
+		"usage":"hug [tag người bạn cần ôm]",
+		"example":"hug @Sumi-Chan",
+		"group":"general"
+	},
+	{
+		"name":"kiss",
+		"decs":"hôn người bạn tag",
+		"usage":"kiss [tag người bạn cần hôn]",
+		"example":"kiss @Sumi-Chan",
+		"group":"general"
+	},
+	{
+		"name":"slap",
+		"decs":"tán sml người bạn tag",
+		"usage":"slap [tag người bạn cần hôn]",
+		"example":"slap @Sumi-Chan",
+		"group":"general"
+	},
+	{
+		"name":"mlem",
+		"decs":"( ͡°👅 ͡°) ",
+		"usage":"mlem",
+		"example":"mlem",
+		"group":"general"
+	},
+	{
+		"name":"care",
+		"decs":"¯\\_(ツ)_/¯ ",
+		"usage":"care",
+		"example":"care",
+		"group":"general"
+	},
+	{
+		"name":"report",
+		"decs":"Gửi thông tin lỗi đến admin hoặc yêu cầu sự giúp đỡ",
+		"usage":"report [Lỗi bạn cần phải báo cáo]",
+		"example":"report bot không chạy được",
+		"group":"system"
+	},
+	{
+		"name":"wiki",
+		"decs":"tra khảo nội dung bạn cần tìm hiểu ",
+		"usage":"wiko [en] [nội dung cần tìm hiểu] nếu sử dụng tiếng Việt không cần nhập en",
+		"example":"wiki loài chó",
+		"group":"general"
+	},
+	{
+		"name":"ping",
+		"decs":"Tag toàn bộ thành viên trong nhóm cùng một lúc (Hạn chế sử dụng)",
+		"usage":"ping",
+		"example":"ping",
+		"group":"general"
+	},
+	{
+		"name":"say",
+		"decs":"Điều khiển bot biến văn bản thành giọng đọc",
+		"usage":"say [en,ko,ru,jp] [Văn bản] nếu sử dụng tiếng việc thì phần language để trống",
+		"example":"say Sumi-Chan xin chào tất cả mọi người",
+		"group":"general"
+	},
+	{
+		"name":"choose",
+		"decs":"chọn ngẫu nhiên trong các kết quả bạn đưa",
+		"usage":"choose [kết quả 1] | [kết quả 2] ",
+		"example":"choose yêu | không yêu",
+		"group":"general"
+	},
+	{
+		"name":"echo",
+		"decs":"Điều khiển bot nói lại văn bản bạn viết",
+		"usage":"echo [văn bản hoặc nội dung]",
+		"example":"echo Sumi-Chan xin chào",
+		"group":"general"
+	},
+	{
+		"name":"covid-19",
+		"decs":"Cập nhật tình hình covid-19 thế giới và Việt Nam nhanh nhất",
+		"usage":"covid-19",
+		"example":"covid-19",
+		"group":"general"
+	},
+	{
+		"name":"weather",
+		"decs":"Kiểm tra thời tiết hiện tại ở khu vực thành phố bạn nhập",
+		"usage":"weather [Thành phố hoặc quốc gia]",
+		"example":"weather Thành Phố Hồ Chí Minh",
+		"group":"general"
+	},
+	{
+		"name":"waifu",
+		"decs":"Thử vận may với Sumi-Chan ",
+		"usage":"waifu",
+		"example":"waifu",
+		"group":"wibu"
+	},
+	{
+		"name":"roll",
+		"decs":"Lấy con số may mắn của bạn, please đừng đi đánh đề :<",
+		"usage":"roll",
+		"example":"roll",
+		"group":"general"
+	},
+	{
+		"name":"rank",
+		"decs":"Lấy rank hiện tại của bạn trên hệ thống bot",
+		"usage":"rank [tag người cần lấy] hoặc rank [id] hoặc rank",
+		"example":"rank @Sumi-chan",
+		"group":"system"
+	},
+	{
+		"name":"anime tag",
+		"decs":"Lấy toàn bộ tag mà bạn có thể sử dụng",
+		"usage":"anime [sfw, nsfw]",
+		"example":"anime sfw",
+		"group":"wibu"
+	},
+	{
+		"name":"anime",
+		"decs":"Lấy random ảnh mà tag bạn đã chọn, để lấy hướng dẫn về lấy tag sử dụng help anime get tag",
+		"usage":"anime [tag]",
+		"example":"anime neko",
+		"group":"wibu"
+	},
+	{
+		"name":"randomcolor",
+		"decs":"Đổi màu sắc cuộc trò chuyện thành màu ngẫu nhiên",
+		"usage":"randomcolor",
+		"example":"randomcolor",
+		"group":"system"
+	},
+	{
+		"name":"rainbow",
+		"decs":"Đổi màu sắc cuộc trò chuyện liên tục theo con số đưa ra",
+		"usage":"rainbow [số lần đổi]",
+		"example":"rainbow 10",
+		"group":"system"
+	},
+	{
+		"name":"facebook -p",
+		"decs":"Lấy video từ link facebook",
+		"usage":"facebook -p [url hoặc link]",
+		"example":"facebook -p https://www.facebook.com/...",
+		"group":"media"
+	},
+	{
+		"name":"youtube -p",
+		"decs":"Lấy video từ link youtube",
+		"usage":"youtube -p [link hoặc từ khoá]",
+		"example":"youtube -p https://www.youtube.com/?watch=xxxyyyzzz",
+		"group":"media"
+	},
+	{
+		"name":"youtube -m",
+		"decs":"Lấy âm thanh từ link hoặc url youtube",
+		"usage":"youtube -m [link hoặc từ khoá]",
+		"example":"youtube -m https://www.youtube.com/?watch=xxxyyyzzz",
+		"group":"media"
+	},
+	{
+		"name":"trans",
+		"decs":"Dịch văn bản bạn nhập",
+		"usage":"trans [văn bản] -> [vi, ru, ja], đây là toàn bộ ngôn ngữ hổ trợ: https://www.labnol.org/code/19899-google-translate-languages",
+		"example":"trans hello world -> vi",
+		"group":"general"
+	},
+	{
+		"name":"quotes",
+		"decs":"Lấy châm ngôn sống của các bật thầy (không có Khá Bảnh hay Huấn Rose đâu)",
+		"usage":"quotes",
+		"example":"quotes",
+		"group":"general"
+	},
+	{
+		"name":"nhentai -r",
+		"decs":"Lấy code may mắn cho riêng bạn ( ͡° ͜ʖ ͡°)",
+		"usage":"nhentai -r",
+		"example":"nhentai -r",
+		"group":"wibu"
+	},
+	{
+		"name":"nhentai -i",
+		"decs":"Lấy thông tin chuyện của bạn ( ͡° ͜ʖ ͡°)",
+		"usage":"nhentai -i [id]",
+		"example":"nhentai -i 177013",
+		"group":"wibu"
+	},
+	{
+		"name":"hentaivn -i",
+		"decs":"Lấy thông tin chuyện của bạn ( ͡° ͜ʖ ͡°)",
+		"usage":"hentaivn -i [id]",
+		"example":"hentaivn -i 19945",
+		"group":"wibu"
+	},
+	{
+		"name":"porn",
+		"decs":"cái tên nói lên tất cả ( ͡° ͜ʖ ͡°)",
+		"usage":"porn [boobs, cum, bj, feet, ass, sex, pussy, teen, bdsm, asian, pornstar, gay(?)]",
+		"example":"porn boobs",
+		"group":"nsfw"
+	},
+	{
+		"name":"math",
+		"decs":"Bảo bot có thể làm toán",
+		"usage":"math [phép toán]",
+		"example":"math 1+1",
+		"group":"general"
+	},
+	{
+		"name":"giveaway",
+		"decs":"Tạo ra 1 giveaway ảo",
+		"usage":"giveaway [phần thưởng]",
+		"example":"giveaway Nghĩa",
+		"group":"general"
+	},
+	{
+		"name":"uid",
+		"decs":"Xem UserID của tài khoản được nhắc tới",
+		"usage":"uid [để trống/nhắc tới một tài khoản]",
+		"example":"uid @Nghĩa",
+		"group":"system"
+	},
+	{
+		"name":"sim",
+		"decs":"Trò chuyện cùng simsimi",
+		"usage":"sim [nội dung]",
+		"example":"sim hello",
+		"group":"general"
+	},
+	{
+		"name":"request",
+		"decs":"Yêu cầu admin thêm thứ gì đó vào bot",
+		"usage":"request [add,list] [Nội dung]",
+		"example":"request list",
+		"group":"system"
+	},
+	{
+		"name":"gif",
+		"decs":"Lấy ngẫu nhiên các gif giải trí",
+		"usage":"gif [cat, dog, capoo, bomman, mixi]",
+		"example":"gif mixi",
+		"group":"general"
+	},
+	{
+		"name":"meme",
+		"decs":"Lấy meme hay trên diễn đàn reddit",
+		"usage":"meme",
+		"example":"meme",
+		"group":"general"
+	},
+	{
+		"name":"uptime",
+		"decs":"xem thời gian hoạt động của bot",
+		"usage":"uptime",
+		"example":"uptime",
+		"group":"system"
+	},
+	{
+		"name":"gỡ",
+		"decs":"gỡ tin nhắn của bot",
+		"usage":"phản hồi đoạn chat mà bot đã gửi và nhập gỡ",
+		"example":"gỡ",
+		"group":"general"
+	},
+	{
+		"name":"kẹt ngân",
+		"decs":"xem số tiền bạn đang có",
+		"usage":"kẹt ngân",
+		"example":"kẹt ngân",
+		"group":"economy"
+	},
+	{
+		"name":"daily",
+		"decs":"nhận phần thưởng hằng ngày",
+		"usage":"daily",
+		"example":"daily",
+		"group":"economy"
+	},
+	{
+		"name":"thăm ngàn",
+		"decs":"có làm thì mới có ăn",
+		"usage":"thăm ngàn",
+		"example":"thăm ngàn",
+		"group":"economy"
+	},
+	{
+		"name":"roul",
+		"decs":"chơi cò quay(roulette)",
+		"usage":"roul [red, green, black] [số tiền cần đặt]",
+		"example":"roul red 500",
+		"group":"economy"
+	},
+	{
+		"name":"coinflip",
+		"decs":"chơi trò tung đồng xu",
+		"usage":"coinflip",
+		"example":"coinflip",
+		"group":"economy"
+	},
+	{
+		"name":"pay",
+		"decs":"chuyển một số tiền cho người mà bạn tag",
+		"usage":"pay [tag người nhận] [số tiền muốn chuyển]",
+		"example":"pay @Sumi-Chan 500",
+		"group":"economy"
+	},
+	{
+		"name":"sl",
+		"decs":"đánh bạc bằng hình thức hoa quả",
+		"usage":"sl [số tiền bạn muốn cá cược]",
+		"example":"sl 500",
+		"group":"economy"
+	},
+	{
+		"name":"earth",
+		"decs":"xem hình ảnh trái đất gần đây nhất",
+		"usage":"earth",
+		"example":"earth",
+		"group":"space"
+	},
+	{
+		"name":"iss",
+		"decs":"xem toạ độ mà tàu vũ trụ đang lưu lạc",
+		"usage":"iss",
+		"example":"iss",
+		"group":"space"
+	},
+	{
+		"name":"neo",
+		"decs":"đếm số lượng vật thể gần trái đất",
+		"usage":"neo",
+		"example":"neo",
+		"group":"space"
+	},
+	{
+		"name":"spacex",
+		"decs":"lấy thông tin đợt phóng mới nhất của SpaceX",
+		"usage":"spacex",
+		"example":"spacex",
+		"group":"space"
+	},
+	{
+		"name":"acronym",
+		"decs":"tìm kiếm kết quả từ từ viết tắt của bạn",
+		"usage":"acronym [từ viết tắt]",
+		"example":"acronym lol",
+		"group":"general"
+	},
+	{
+		"name":"count",
+		"decs":"Đếm số tin nhắn trong group",
+		"usage":"count",
+		"example":"count",
+		"group":"general"
+	},
+	{
+		"name":"poll",
+		"decs":"Tạo cuộc thăm dò ý kiến trong group",
+		"usage":"poll [tên/chủ đề] -> [lựa chọn 1] | [lựa chọn 2] | [lựa chọn n+1]",
+		"example":"poll Nghĩa or Tâm? -> Nghĩa | Tâm",
+		"group":"general"
+	},
+	{
+		"name":"resend",
+		"decs":"Bật tắt tự động gửi lại tin nhắn bị gỡ",
+		"usage":"resend [on hoặc off]",
+		"example":"resend off",
+		"group":"system"
+	}
+]
